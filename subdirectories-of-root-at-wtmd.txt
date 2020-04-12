@@ -1,0 +1,10 @@
+directories under / at wtmd.org:
+
+cgi-bin
+images
+iphone
+player
+radio
+remember
+wtmdapp
+wtmdradio

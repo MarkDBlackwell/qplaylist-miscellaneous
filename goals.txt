@@ -1,0 +1,21 @@
+--------------
+Goals:
+
+Stop flashing command windows.
+Flexibility.
+Log error messages.
+
+--------------
+Example batch code:
+
+1. Start a command:
+
+start /wait cmd /c timeout /t 2
+
+2. Start a command without a window:
+
+start /b /wait cmd /c timeout /t 2
+
+3. Exit on failure:
+
+copy a b || exit
